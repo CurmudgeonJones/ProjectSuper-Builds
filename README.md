@@ -40,9 +40,12 @@ If it will not start, run `chmod +x ProjectSuper/ProjectSuper.x86_64` first.
 xattr -dr com.apple.quarantine /path/to/ProjectSuper.app
 ```
 
-## Found a bug?
+## How to report a bug
 
-Use the **Report a Bug** button in the game. It makes a report you can send.
+- In the game: use the **Report a Bug** button (title screen and pause menu). It saves a zip with the version, log and a screenshot and opens a prefilled GitHub issue on this repo. You need a free GitHub account to submit it; attach the zip to the issue.
+- If the button does not work: send the log. On Windows it is in `%USERPROFILE%\AppData\LocalLow\Project Super\Project Super\Player.log`.
+- Or [open an issue](https://github.com/CurmudgeonJones/ProjectSuper-Builds/issues/new) by hand.
+- Give the version number (title screen), what you clicked just before, and the round.
 
 ## Honest notes
 
